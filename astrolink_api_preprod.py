@@ -4,9 +4,8 @@ import hmac
 import random
 import string
 
-# Fictitious information for Astrolink Bank API preproduction environment
 api_url_preproduction = "https://preproduction.api.astrolinkbank.com"
-api_key = "your_api_key"  # Replace with your real API key
+api_key = "hrLFLjm.68iNHYUI4mVCWpsaAgwKPr0Rz-AD52JJqtLo."  # Replace with your API key
 secret_key = ''.join(random.choices(string.ascii_letters + string.digits, k=32))  # Replace with your real secret key
 
 # Example data for the request (adjust as needed)
